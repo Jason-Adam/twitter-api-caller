@@ -1,4 +1,4 @@
-package com.aptiveresources.sptwitterapi.modules
+package com.jasonadam.twitterapicaller.modules
 
 import java.io.BufferedReader
 import java.io.InputStreamReader

@@ -1,4 +1,4 @@
-package com.aptiveresources.sptwitterapi.models
+package com.jasonadam.twitterapicaller.models
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

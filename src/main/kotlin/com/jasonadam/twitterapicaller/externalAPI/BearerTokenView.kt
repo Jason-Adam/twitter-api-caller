@@ -1,6 +1,6 @@
-package com.aptiveresources.sptwitterapi.externalAPI
+package com.jasonadam.twitterapicaller.externalAPI
 
-import com.aptiveresources.sptwitterapi.models.BearerToken
+import com.jasonadam.twitterapicaller.models.BearerToken
 import java.util.logging.Logger
 
 class BearerTokenView {

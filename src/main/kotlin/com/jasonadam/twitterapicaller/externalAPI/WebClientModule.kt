@@ -1,4 +1,4 @@
-package com.aptiveresources.sptwitterapi.externalAPI
+package com.jasonadam.twitterapicaller.externalAPI
 
 import com.fasterxml.jackson.databind.DeserializationFeature
 import com.fasterxml.jackson.databind.ObjectMapper

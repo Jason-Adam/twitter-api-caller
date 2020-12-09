@@ -1,4 +1,4 @@
-package com.aptiveresources.sptwitterapi.externalAPI
+package com.jasonadam.twitterapicaller.externalAPI
 
 import java.util.*
 

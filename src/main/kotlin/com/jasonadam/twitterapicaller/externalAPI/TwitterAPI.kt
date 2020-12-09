@@ -1,8 +1,8 @@
-package com.aptiveresources.sptwitterapi.externalAPI
+package com.jasonadam.twitterapicaller.externalAPI
 
-import com.aptiveresources.sptwitterapi.models.BearerToken
-import com.aptiveresources.sptwitterapi.models.SearchTweetsResponse
-import com.aptiveresources.sptwitterapi.models.Tweet
+import com.jasonadam.twitterapicaller.models.BearerToken
+import com.jasonadam.twitterapicaller.models.SearchTweetsResponse
+import com.jasonadam.twitterapicaller.models.Tweet
 import retrofit2.Call
 import retrofit2.http.*
 

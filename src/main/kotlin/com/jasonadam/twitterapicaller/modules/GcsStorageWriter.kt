@@ -1,4 +1,4 @@
-package com.aptiveresources.sptwitterapi.modules
+package com.jasonadam.twitterapicaller.modules
 
 import com.google.cloud.WriteChannel
 import com.google.cloud.storage.BlobId

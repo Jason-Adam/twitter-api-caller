@@ -1,11 +1,11 @@
-package com.aptiveresources.sptwitterapi
+package com.jasonadam.twitterapicaller
 
-import com.aptiveresources.sptwitterapi.externalAPI.BearerTokenView
-import com.aptiveresources.sptwitterapi.externalAPI.TweetsView
-import com.aptiveresources.sptwitterapi.models.SearchValues
-import com.aptiveresources.sptwitterapi.modules.GcsStorageWriter
-import com.aptiveresources.sptwitterapi.modules.ResourceLoader
-import com.aptiveresources.sptwitterapi.modules.StorageWriter
+import com.jasonadam.twitterapicaller.externalAPI.BearerTokenView
+import com.jasonadam.twitterapicaller.externalAPI.TweetsView
+import com.jasonadam.twitterapicaller.models.SearchValues
+import com.jasonadam.twitterapicaller.modules.GcsStorageWriter
+import com.jasonadam.twitterapicaller.modules.ResourceLoader
+import com.jasonadam.twitterapicaller.modules.StorageWriter
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import com.fasterxml.jackson.module.kotlin.readValue
 import kotlinx.coroutines.Dispatchers

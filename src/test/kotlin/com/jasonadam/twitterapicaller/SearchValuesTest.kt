@@ -1,6 +1,6 @@
-package com.aptiveresources.sptwitterapi
+package com.jasonadam.twitterapicaller
 
-import com.aptiveresources.sptwitterapi.models.SearchValues
+import com.jasonadam.twitterapicaller.models.SearchValues
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.Arguments

@@ -1,8 +1,8 @@
-package com.aptiveresources.sptwitterapi.externalAPI
+package com.jasonadam.twitterapicaller.externalAPI
 
-import com.aptiveresources.sptwitterapi.models.BearerToken
-import com.aptiveresources.sptwitterapi.models.SearchValues
-import com.aptiveresources.sptwitterapi.models.Tweet
+import com.jasonadam.twitterapicaller.models.BearerToken
+import com.jasonadam.twitterapicaller.models.SearchValues
+import com.jasonadam.twitterapicaller.models.Tweet
 import kotlinx.coroutines.*
 import java.util.concurrent.ConcurrentLinkedQueue
 import java.util.logging.Logger
