@@ -1,0 +1,24 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: { { APP_NAME } }
+spec:
+  schedule: "30 23 * * *"
+  failedJobsHistoryLimit: 1
+  successfulJobsHistoryLimit: 1
+  concurrencyPolicy: Replace
+  jobTemplate:
+    spec:
+      completions: 1
+      parallelism: 1
+      backoffLimit: 1
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: { { APP_NAME } }
+              image: { { IMG } }
+              imagePullPolicy: Always
+              envFrom:
+                - secretRef:
+                    name: { { APP_NAME } }
