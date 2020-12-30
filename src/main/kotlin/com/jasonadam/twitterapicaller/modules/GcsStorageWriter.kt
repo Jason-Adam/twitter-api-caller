@@ -14,7 +14,7 @@ import java.util.logging.Logger
 class GcsStorageWriter : StorageWriter {
 
     private val storage = StorageOptions.getDefaultInstance().service
-    private val bucketName = "sp-twitter-api"
+    private val bucketName = "twitter-api"
 
     private fun createBlob(): BlobInfo {
         val endDate = LocalDate.now()

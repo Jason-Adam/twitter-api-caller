@@ -123,3 +123,5 @@ fabric.properties
 .project
 *.swp
 config.json
+.settings/*
+.classpath
